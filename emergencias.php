@@ -23,7 +23,6 @@
 
  	endif;
 
- 	endif;
  }
 
 print_r(json_encode($cron));
