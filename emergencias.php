@@ -6,11 +6,12 @@
  $contador = 0;
  $cron = array();
  $emergencia = array();
-
+echo 'aaaaaaa';
  foreach($html->find('tr') as $div) {
  	$contador++;
+    echo 'bbbbbb';
  	if($contador>10):
-
+echo 'cccccc';
         $emergencia['tipo'] = str_replace("&nbsp;","",$div->find('td.lineaizq', 4)->plaintext);
         $emergencia['direccion'] = str_replace("&nbsp;","",$div->find('td.lineaizq', 3)->plaintext);
 	 	$mapa = $div->find('img', 0);
@@ -24,7 +25,7 @@
  	endif;
 
  }
-
+echo 'dddddd';
 print_r(json_encode($cron));
 
     // clean up memory
