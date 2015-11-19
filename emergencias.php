@@ -1,6 +1,6 @@
-<?php
+<?php echo '1111111';
  include('simple_html_dom.php');
-
+echo '22222222';
  $html = file_get_html('http://www.bomberosperu.gob.pe/po_diario.asp');
 
  $contador = 0;
