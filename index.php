@@ -14,7 +14,7 @@
 	<div class='container-fluid'>
 		<h1 class='page-header center'>RUTAS 116</h1>
 		<h3 class='center'>Te indicamos como llegar a tu emergencia</h3>
-		<p class='center'>Permite al navegador obtener tu ubicación para poder guiarte como llegar a una emergencia reportada por el Cuerpo de Bomberos del Perú.</p>
+		<p class='center'>Permite al navegador obtener tu ubicación para poder guiarte como llegar a una emergencia reportada por el Cuerpo de Bomberos del Perú. Página no oficial.</p>
 		<p><select class="form-control input-lg" id="emergencias"></select></p>
 		<p><a class='btn btn-primary btn-lg btn-block' id='start_travel'>VER RUTA</a></p>
 		<div id="map" class='col-xs-10 col-xs-offset-1 img-thumbnail' style='height:500px;'></div>
