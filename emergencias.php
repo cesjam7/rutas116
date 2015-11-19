@@ -1,8 +1,8 @@
 <?php echo '1111111';
- include "simple_html_dom.php";
+ require "simple_html_dom.php";
 echo '22222222';
  $html = file_get_html('http://www.bomberosperu.gob.pe/po_diario.asp');
-
+echo '3333333';
  $contador = 0;
  $cron = array();
  $emergencia = array();
